@@ -154,3 +154,10 @@ body{
 @media(max-width:980px){.packet-stage{height:510px;grid-template-columns:1fr 210px 1fr}.recipe-packet{width:205px;min-height:350px}.packet-photo{font-size:6.8rem}.summary-grid{grid-template-columns:1fr}.customizer-grid{grid-template-columns:1fr}.wide-card{grid-column:auto}.theme-picker{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.profile-shortcut>span:last-child{display:none}.packet-stage{grid-template-columns:1fr;height:500px}.packet-photo{position:absolute;inset:0;opacity:.3}.packet-left{clip-path:polygon(0 0,100% 0,52% 52%,0 100%)}.packet-right{clip-path:polygon(48% 48%,100% 0,100% 100%,0 100%)}.recipe-packet{width:200px;min-height:340px}.unit-header{align-items:flex-start;flex-direction:column}.path-node-name{width:130px}.theme-picker{grid-template-columns:repeat(2,1fr)}.dialog-grid{grid-template-columns:1fr}}
 @media(max-width:560px){.profile-shortcut{padding:4px}.mini-avatar{width:36px;height:36px}.top-stats{gap:3px}.editorial-block{margin-top:34px}.packet-stage{height:460px}.path-unit{padding-inline:8px}.path-recipe-node{width:70px;height:66px;font-size:1.7rem}.path-node-name{top:77px;width:105px;font-size:.61rem}.unit-nodes{gap:24px}.dialog-hero{grid-template-columns:1fr}.dialog-actions{flex-direction:column}.dialog-actions button{width:100%}}
+
+
+/* User-provided BerryBelle mascot artwork */
+.berrybelle-photo-wrap{margin:0;display:grid;place-items:center;position:relative;z-index:2}
+.berrybelle-photo{width:min(330px,82vw);aspect-ratio:1/1;object-fit:cover;border:5px solid var(--theme-border,#efb8c6);border-radius:38px;box-shadow:0 24px 42px rgba(83,41,57,.18);transform:rotate(-2deg);transition:transform .28s ease,box-shadow .28s ease}
+.berrybelle-photo:hover{transform:rotate(2deg) translateY(-7px) scale(1.025);box-shadow:0 30px 52px rgba(83,41,57,.24)}
+@media(max-width:560px){.berrybelle-photo{width:min(275px,78vw);border-radius:30px}}
