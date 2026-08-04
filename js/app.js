@@ -1,3 +1,4 @@
+
 "use strict";
 
 const recipes = Array.isArray(window.CCD_RECIPES) ? window.CCD_RECIPES : [];
